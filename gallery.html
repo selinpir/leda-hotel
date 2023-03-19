@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    
+<style>
+
+ .leda {
+  background-color: #012E4A;
+  color: #E8EDE7;
+  width: 10%;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  bottom: 10;
+  left: 10;
+  width: 100%;
+}
+nav, ul, li {
+  margin: 10;
+  padding: 0;
+  list-style: none;
+}
+
+nav {
+  background-color: #036280;
+  width: 101%;
+  height: 60px; 
+}
+
+ul {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px;
+}
+
+li {
+  margin: 0 10px; 
+}
+a {
+  display: block;
+  color: #E8EDE7;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: #81BECE;
+  color: #333;
+}
+
+footer {
+   
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: #012E4A;
+   color: #E8EDE7;
+   padding: 20px;
+   text-align: center;
+ }
+ 
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.gallery .column {
+  flex: 1;
+  margin: 10px;
+  max-width: 400px;
+}
+
+.gallery img {
+  
+  width: 400px; 
+  height: 300px;
+  object-fit: cover; 
+  transition: all 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+
+
+body {
+  font-family: Playfair Display;
+  font-size: 1rem;
+  background-color: #E8EDE7;
+  color: #333;
+  line-height: 1;
+}
+  </style>
+
+
+</head>
+
+
+<body>
+
+    <a href="#" class="leda">LEDA HOTEL</a>
+    <nav>
+        <ul>
+            <li> <a href="index.html">HOME</a> </li>
+            <li> <a href="index.html">ABOUT</a></li>
+            <li><a href="index.html">ROOMS</a></li>
+            <li><a href="index.html">CONTACT</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li></li>
+        </ul>
+    </nav>
+
+
+    
+    <div class="gallery">
+      <div class="row">
+        <div class="column">
+
+             <h3 >The comfort of our guests is always our priority. 
+              Our rooms are carefully decorated to provide every 
+              comfort. The photos in our gallery reflect this cosy
+              atmosphere. </h3>
+        </div> 
+    
+ <div class="gallery">
+    <div class="row">
+      <div class="column">
+        <img src="hotelimage/1.jpg" alt="">
+        <img src="hotelimage/10.jpg" alt="">
+        
+      </div>
+      <div class="column">
+        <img src="hotelimage/2.jpg" alt="">
+        <img src="hotelimage/3.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="row">
+        <div class="column">
+
+             <h3 > Every detail has been considered
+              for our guests to have a pleasant 
+              and comfortable holiday in our hotel.
+              Features such as our swimming pools, 
+              spa centre and fitness centre offer 
+              atmospheres where our guests can relieve
+              stress and relax. </h3>
+        </div> 
+
+    <div class="row">
+      <div class="column">
+        <img src="hotelimage/4.jpg" alt="">
+        <img src="hotelimage/5.jpg" alt="">
+      </div>
+      
+      <div class="column">
+        <img src="hotelimage/6.jpg" alt="">
+        <img src="hotelimage/7.jpg" alt="">
+      </div>
+
+      <div class="gallery">
+        <div class="row">
+          <div class="column">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+          <h3 >          
+          Different types of guest rooms, 
+          rooms with private views or private
+          gardens have been carefully designed 
+          to meet the needs of our guests. Our 
+          delicious meals served in our restaurant
+          or cafeteria areas appeal to the tastes
+          of our guests.</h3>
+<br>
+<br>
+<br>
+<br>
+<br>
+          <h3 >The lobby, entrance and exit areas 
+          of our hotel are the places where our
+          guests will get their first impressions. 
+          Our staff responds to the needs of our
+          guests in the best way possible with their
+          friendly service and hospitality. We are
+          always here for you to have a comfortable
+          and pleasant experience during your holiday. </h3>
+          </div> 
+  
+
+      <div class="row">
+      <div class="column">
+        <img src="hotelimage/11.jpg" alt="">
+        <img src="hotelimage/12.jpg" alt="">
+      </div>
+   
+      <div class="column">
+        <img src="hotelimage/13.jpg" alt="">
+        <img src="hotelimage/14.jpg" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="hotelimage/15.jpg" alt="">
+        <img src="hotelimage/16.jpg" alt="">
+      </div>
+      <div class="column">
+        <img src="hotelimage/17.jpg" alt="">
+        <img src="hotelimage/18.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  
+
+
+<footer class="footer">
+    <p>Copyright © 2023 - LEDA HOTEL</p>
+</footer>
+
+
+</body>
+</html>
